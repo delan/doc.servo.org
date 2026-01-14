@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["nested","pem","slice"],"trait":["Reader"]};

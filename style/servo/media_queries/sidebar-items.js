@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Scan"],"fn":["eval_device_pixel_ratio","eval_prefers_color_scheme","eval_resolution","eval_scan","eval_width"],"static":["MEDIA_FEATURES"],"struct":["Device"],"trait":["FontMetricsProvider"]};

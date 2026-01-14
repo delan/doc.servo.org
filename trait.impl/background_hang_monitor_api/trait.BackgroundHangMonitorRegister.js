@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["background_hang_monitor",[["impl <a class=\"trait\" href=\"background_hang_monitor_api/trait.BackgroundHangMonitorRegister.html\" title=\"trait background_hang_monitor_api::BackgroundHangMonitorRegister\">BackgroundHangMonitorRegister</a> for <a class=\"struct\" href=\"background_hang_monitor/background_hang_monitor/struct.HangMonitorRegister.html\" title=\"struct background_hang_monitor::background_hang_monitor::HangMonitorRegister\">HangMonitorRegister</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[468]}

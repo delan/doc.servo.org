@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["BT601"],"enum":["AlphaColorMode","BitDepth","ColorModel"],"fn":["encode_to_av1","init_frame_1","init_frame_3","quality_to_quantizer","rav1e_config","rgb_to_10_bit_gbr","rgb_to_10_bit_ycbcr","rgb_to_8_bit_gbr","rgb_to_8_bit_ycbcr","rgb_to_ycbcr","to_ten"],"struct":["Av1EncodeConfig","EncodedImage","Encoder","SpeedTweaks"]};

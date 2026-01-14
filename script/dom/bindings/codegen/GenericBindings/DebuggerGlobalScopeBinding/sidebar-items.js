@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["DefineDOMInterface","GetProtoObject","Wrap"],"mod":["DebuggerGlobalScope_Binding"],"struct":["NotifyNewSource","PipelineIdInit"],"trait":["DebuggerGlobalScopeMethods"]};

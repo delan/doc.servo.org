@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["INFINITY"],"enum":["Direction"],"struct":["Layout","Region"]};

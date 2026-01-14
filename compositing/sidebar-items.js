@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["WebRenderDebugOption"],"mod":["largest_contentful_paint_calculator","paint","painter","pinch_zoom","pipeline_details","refresh_driver","render_notifier","screenshot","touch","tracing","webrender_external_images","webview_renderer"],"struct":["InitialPaintState","Paint"]};

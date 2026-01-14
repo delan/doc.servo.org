@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["FontFamily","FontPriority"],"fn":["ab_glyph_font_from_font_data","should_cache_each_paragraph_individually"],"struct":["CachedFamily","CachedGalley","FontData","FontDefinitions","FontFaceKey","FontId","FontInsert","FontTweak","Fonts","FontsImpl","FontsView","GalleyCache","InsertFontFamily"]};

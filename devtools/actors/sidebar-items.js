@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["breakpoint","browsing_context","console","device","environment","frame","framerate","inspector","long_string","memory","network_event","object","pause","performance","preference","process","reflow","root","source","stylesheets","tab","thread","timeline","watcher","worker"]};

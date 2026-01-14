@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["DiscardBrowsingContext","DocumentActivity","DocumentState","PaintWorkletError","ProgressiveWebMetricType","ScriptThreadMessage","UpdatePipelineIdReason"],"struct":["ConstellationInputEvent","DrawAPaintImageResult","InitialScriptState","NewPipelineInfo"],"trait":["Painter"]};

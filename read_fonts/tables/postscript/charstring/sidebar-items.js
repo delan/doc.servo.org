@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["NESTING_DEPTH_LIMIT"],"enum":["Operator","PointMode"],"fn":["evaluate"],"struct":["Evaluator"],"trait":["CommandSink"]};

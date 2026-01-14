@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["impl_signed","impl_unsigned"],"trait":["Sealed"]};

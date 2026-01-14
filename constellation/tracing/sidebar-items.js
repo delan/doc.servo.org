@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["trace_msg_from_embedder","trace_script_msg"],"mod":["from_embedder","from_script"],"trait":["LogTarget"]};

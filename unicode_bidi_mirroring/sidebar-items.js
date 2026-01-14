@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["OTHER","PAIRS","UNICODE_VERSION"],"fn":["get_mirrored","is_mirroring"]};

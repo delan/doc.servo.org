@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["HTX_TAB","TX_TYPES","TX_TYPES_PLUS_LL","VTX_TAB"],"enum":["TxSet","TxSize","TxType","TxType1D"],"fn":["av1_round_shift_array","clamp_value","get_1d_tx_types","get_rect_tx_log_ratio","half_btf","valid_av1_transform"],"mod":["consts","forward","forward_shared","inverse"],"static":["RAV1E_TX_TYPES"]};

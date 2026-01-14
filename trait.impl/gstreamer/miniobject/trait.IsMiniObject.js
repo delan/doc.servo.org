@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["gstreamer",[]],["gstreamer_gl",[["impl <a class=\"trait\" href=\"gstreamer/miniobject/trait.IsMiniObject.html\" title=\"trait gstreamer::miniobject::IsMiniObject\">IsMiniObject</a> for <a class=\"struct\" href=\"gstreamer_gl/struct.GLBaseMemory.html\" title=\"struct gstreamer_gl::GLBaseMemory\">GLBaseMemory</a>"],["impl <a class=\"trait\" href=\"gstreamer/miniobject/trait.IsMiniObject.html\" title=\"trait gstreamer::miniobject::IsMiniObject\">IsMiniObject</a> for <a class=\"struct\" href=\"gstreamer_gl/struct.GLMemory.html\" title=\"struct gstreamer_gl::GLMemory\">GLMemory</a>"],["impl <a class=\"trait\" href=\"gstreamer/miniobject/trait.IsMiniObject.html\" title=\"trait gstreamer::miniobject::IsMiniObject\">IsMiniObject</a> for <a class=\"struct\" href=\"gstreamer_gl/struct.GLMemoryPBO.html\" title=\"struct gstreamer_gl::GLMemoryPBO\">GLMemoryPBO</a>"]]],["gstreamer_video",[["impl <a class=\"trait\" href=\"gstreamer/miniobject/trait.IsMiniObject.html\" title=\"trait gstreamer::miniobject::IsMiniObject\">IsMiniObject</a> for <a class=\"struct\" href=\"gstreamer_video/video_overlay_composition/struct.VideoOverlayComposition.html\" title=\"struct gstreamer_video::video_overlay_composition::VideoOverlayComposition\">VideoOverlayComposition</a>"],["impl <a class=\"trait\" href=\"gstreamer/miniobject/trait.IsMiniObject.html\" title=\"trait gstreamer::miniobject::IsMiniObject\">IsMiniObject</a> for <a class=\"struct\" href=\"gstreamer_video/video_overlay_composition/struct.VideoOverlayRectangle.html\" title=\"struct gstreamer_video::video_overlay_composition::VideoOverlayRectangle\">VideoOverlayRectangle</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[16,853,766]}

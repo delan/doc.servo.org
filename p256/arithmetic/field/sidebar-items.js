@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MODULUS","MODULUS_HEX","R_2"],"mod":["field_impl"],"struct":["FieldElement"]};

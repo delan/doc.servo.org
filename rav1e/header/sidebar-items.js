@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["ALL_REF_FRAMES_MASK","LEVEL_BITS","LEVEL_MAJOR_BITS","LEVEL_MAJOR_MIN","LEVEL_MINOR_BITS","OP_POINTS_IDC_BITS","PRIMARY_REF_BITS","PRIMARY_REF_NONE"],"enum":["ObuMetaType","ObuType","ReferenceMode"],"trait":["LEWriter","ULEB128Writer","UncompressedHeader"]};

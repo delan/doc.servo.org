@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["cmd_options","decoder_strict_mode","fast_options"],"struct":["DecoderFlags","DecoderOptions"]};

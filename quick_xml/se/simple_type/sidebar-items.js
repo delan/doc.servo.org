@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["QuoteTarget"],"fn":["escape_into","escape_item","escape_list"],"macro":["write_atomic"],"struct":["AtomicSerializer","SimpleSeq","SimpleTypeSerializer"]};

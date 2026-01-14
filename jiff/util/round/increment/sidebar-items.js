@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["for_datetime","for_span","for_time","for_timestamp","get_with_limit","get_with_max"]};

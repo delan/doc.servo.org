@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Content"],"macro":["deserialize_num","deserialize_primitive","unsupported"],"struct":["AtomicDeserializer","ListIter","SimpleTypeDeserializer","UnitOnly"]};

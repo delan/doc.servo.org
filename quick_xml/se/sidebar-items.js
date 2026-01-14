@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Indent","QuoteLevel","TextFormat","WriteResult"],"fn":["is_xml11_name_char","is_xml11_name_start_char","to_string","to_string_with_root","to_utf8_io_writer","to_writer","to_writer_with_root"],"macro":["forward","write_primitive"],"mod":["content","element","key","simple_type","text"],"struct":["Serializer","SimpleTypeSerializer","XmlName"]};

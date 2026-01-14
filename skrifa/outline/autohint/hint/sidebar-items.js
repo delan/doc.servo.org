@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["hint_outline"],"mod":["edges","outline"],"struct":["EdgeMetrics","HintedMetrics"]};

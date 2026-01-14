@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["LockBehavior","LockType","SelectDistinct","UnionType","WindowSelectType"],"struct":["JoinExpr","LockClause","SelectExpr","SelectStatement"]};

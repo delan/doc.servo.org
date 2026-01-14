@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["impl_as_primitive_bf16_from","impl_as_primitive_f16_from","impl_as_primitive_to_bf16","impl_as_primitive_to_f16","impl_signed"]};

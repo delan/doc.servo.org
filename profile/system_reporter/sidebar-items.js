@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["JEMALLOC_HEAP_ALLOCATED_STR","SYSTEM_HEAP_ALLOCATED_STR"],"fn":["collect_reports","jemalloc_stat","mallinfo","page_size","proc_self_statm_field","proportional_set_size","resident","resident_segments","system_heap_allocated","vsize"],"struct":["struct_mallinfo"]};

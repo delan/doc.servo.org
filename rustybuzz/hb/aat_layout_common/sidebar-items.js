@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["hb_aat_apply_context_t"]};

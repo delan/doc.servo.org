@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["serialize_basic","serialize_struct_anon_fields","serialize_struct_named_fields"],"struct":["MapSerializer","Serializer"]};

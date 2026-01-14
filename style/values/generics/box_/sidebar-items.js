@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["GenericContainIntrinsicSize","GenericPerspective","GenericVerticalAlign","PositionProperty","VerticalAlignKeyword"],"struct":["GenericLineClamp"]};

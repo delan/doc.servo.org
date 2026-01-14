@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["render","render_impl"],"struct":["Strip"]};

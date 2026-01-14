@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Tuple"],"macro":["write_primitive"],"struct":["ElementSerializer","Map","Struct"]};

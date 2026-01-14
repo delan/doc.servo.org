@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["decode_name"],"macro":["deserialize_num"],"struct":["QNameDeserializer"]};

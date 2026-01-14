@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["wgpu_hal",[["impl <a class=\"trait\" href=\"gpu_descriptor_types/device/trait.DescriptorDevice.html\" title=\"trait gpu_descriptor_types::device::DescriptorDevice\">DescriptorDevice</a>&lt;<a class=\"struct\" href=\"ash/vk/definitions/struct.DescriptorSetLayout.html\" title=\"struct ash::vk::definitions::DescriptorSetLayout\">DescriptorSetLayout</a>, <a class=\"struct\" href=\"ash/vk/definitions/struct.DescriptorPool.html\" title=\"struct ash::vk::definitions::DescriptorPool\">DescriptorPool</a>, <a class=\"struct\" href=\"ash/vk/definitions/struct.DescriptorSet.html\" title=\"struct ash::vk::definitions::DescriptorSet\">DescriptorSet</a>&gt; for <a class=\"struct\" href=\"wgpu_hal/vulkan/struct.DeviceShared.html\" title=\"struct wgpu_hal::vulkan::DeviceShared\">DeviceShared</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[795]}

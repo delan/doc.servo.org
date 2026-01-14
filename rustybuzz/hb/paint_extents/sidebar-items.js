@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["status_t"],"struct":["hb_bounds_t","hb_extents_t","hb_paint_extents_context_t"],"trait":["TransformExt"]};

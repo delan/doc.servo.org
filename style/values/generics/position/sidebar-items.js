@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AnchorSideKeyword","GenericAnchorSide","GenericInset","GenericPositionOrAuto","GenericZIndex","PreferredRatio"],"struct":["GenericAnchorFunction","GenericAspectRatio","GenericPosition"],"trait":["PositionComponent"]};

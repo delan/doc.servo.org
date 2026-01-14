@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["BlobData","Serializable"],"struct":["BlobImpl","BroadcastChannelMsg","DomException","DomMatrix","DomPoint","DomQuad","DomRect","FileBlob","SerializableImageBitmap","SerializableImageData","SerializableIter","SerializableQuotaExceededError"],"trait":["BroadcastClone"]};

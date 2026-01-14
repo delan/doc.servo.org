@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["impl_teletex_string"],"mod":["__impl_string","allocation"],"struct":["TeletexStringRef"]};

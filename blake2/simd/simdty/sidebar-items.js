@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["decl_simd"],"struct":["Simd16","Simd2","Simd32","Simd4","Simd8"],"type":["u16x16","u16x8","u32x4","u32x8","u64x2","u64x4","u8x16","u8x32"]};

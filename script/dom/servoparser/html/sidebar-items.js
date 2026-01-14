@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["SerializationChildrenIterator","SerializationCommand"],"fn":["serialize_html_fragment","start_element"],"struct":["HtmlSerialize","SerializationIterator","Tokenizer"]};

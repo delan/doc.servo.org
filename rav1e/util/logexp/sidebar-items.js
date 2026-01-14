@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["ATANH_LOG2"],"fn":["bexp32_q10","bexp64","bexp_q24","blog32","blog32_q11","blog64","q24_to_q57","q57","q57_to_q24"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Tag","TagMode"],"struct":["ParseError","TagNumber"]};

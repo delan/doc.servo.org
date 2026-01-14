@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["simd_opt"],"mod":["u32x4","u64x4"]};

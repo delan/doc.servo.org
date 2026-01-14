@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["structure_display_fmt"],"macro":["tuple_impls"],"struct":["OwnedStructure","OwnedStructureSeed","Structure","StructureBuilder","StructureSeed","StructureVisitor"]};

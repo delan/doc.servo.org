@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["ATTR_NAME"],"struct":["AttrNameValue","FieldAttrs","TypeAttrs"]};

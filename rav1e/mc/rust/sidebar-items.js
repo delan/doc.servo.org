@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["PREP_BIAS"],"fn":["get_filter","mc_avg","prep_8tap","put_8tap","run_filter"]};

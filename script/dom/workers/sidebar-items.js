@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["abstractworker","abstractworkerglobalscope","dedicatedworkerglobalscope","serviceworker","serviceworkercontainer","serviceworkerglobalscope","serviceworkerregistration","worker","workerglobalscope","workerlocation","workernavigator"]};

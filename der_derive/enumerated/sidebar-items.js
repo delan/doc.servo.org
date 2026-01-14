@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["REPR_TYPES"],"struct":["DeriveEnumerated","EnumeratedVariant"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["BT1886_BLACKPOINT","BT1886_GAMMA","BT1886_WHITEPOINT","PQ_C1","PQ_C2","PQ_C3","PQ_M1","PQ_M2"],"enum":["TransferFunction"],"fn":["bt1886_alpha","bt1886_beta","bt1886_inv_blackpoint","bt1886_inv_whitepoint","generate_luma_noise_points","generate_photon_noise_params","write_film_grain_segment","write_grain_table"],"struct":["NoiseGenArgs"]};

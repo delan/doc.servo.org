@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["avif","bmp","gif","ico","jpeg","png","webp"]};

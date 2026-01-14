@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["decl_read_method","decl_write_method","impl_read_method","impl_write_method"],"trait":["ReadBytes","WriteBytes"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["DOMTracker","MutableWeakRef","WeakBox","WeakRef","WeakRefEntry","WeakRefVec"],"trait":["WeakReferenceable"]};

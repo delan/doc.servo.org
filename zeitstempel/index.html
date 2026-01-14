@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="zeitstempel is German for “timestamp”."><title>zeitstempel - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2"href="../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../static.files/normalize-9960930a.css"><link rel="stylesheet" href="../static.files/rustdoc-e56847b5.css"><meta name="rustdoc-vars" data-root-path="../" data-static-root-path="../static.files/" data-current-crate="zeitstempel" data-themes="" data-resource-suffix="" data-rustdoc-version="1.91.0 (f8297e351 2025-10-28)" data-channel="1.91.0" data-search-js="search-e256b49e.js" data-stringdex-js="stringdex-c3e638e9.js" data-settings-js="settings-c38705f0.js" ><script src="../static.files/storage-e2aeef58.js"></script><script defer src="../crates.js"></script><script defer src="../static.files/main-6dc2a7f3.js"></script><noscript><link rel="stylesheet" href="../static.files/noscript-263c88ec.css"></noscript><link rel="alternate icon" type="image/png" href="../static.files/favicon-32x32-eab170b8.png"><link rel="icon" type="image/svg+xml" href="../static.files/favicon-044be391.svg"></head><body class="rustdoc mod crate"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><rustdoc-topbar><h2><a href="#">Crate zeitstempel</a></h2></rustdoc-topbar><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../zeitstempel/index.html">zeitstempel</a><span class="version">0.1.2</span></h2></div><div class="sidebar-elems"><ul class="block"><li><a id="all-types" href="all.html">All Items</a></li></ul><section id="rustdoc-toc"><h3><a href="#">Sections</a></h3><ul class="block top-toc"><li><a href="#why-not-stdtimeinstant" title="Why not `std::time::Instant`?">Why not <code>std::time::Instant</code>?</a></li><li><a href="#example" title="Example">Example</a></li><li><a href="#supported-operating-systems" title="Supported operating systems">Supported operating systems</a></li></ul><h3><a href="#modules">Crate Items</a></h3><ul class="block"><li><a href="#modules" title="Modules">Modules</a></li><li><a href="#functions" title="Functions">Functions</a></li></ul></section><div id="rustdoc-modnav"></div></div></nav><div class="sidebar-resizer" title="Drag to resize sidebar"></div><main><div class="width-limiter"><section id="main-content" class="content"><div class="main-heading"><h1>Crate <span>zeitstempel</span>&nbsp;<button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a class="src" href="../src/zeitstempel/lib.rs.html#1-108">Source</a> </span></div><details class="toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><p>zeitstempel is German for “timestamp”.</p>
+<hr />
+<p>Time’s hard. Correct time is near impossible.</p>
+<p>This crate has one purpose: give me a timestamp as an integer, coming from a monotonic clock
+source, include time across suspend/hibernation of the host machine and let me compare it to
+other timestamps.</p>
+<p>It becomes the developer’s responsibility to only compare timestamps obtained from this clock source.
+Timestamps are not comparable across operating system reboots.</p>
+<h2 id="why-not-stdtimeinstant"><a class="doc-anchor" href="#why-not-stdtimeinstant">§</a>Why not <code>std::time::Instant</code>?</h2>
+<p><a href="https://doc.rust-lang.org/1.91.0/std/time/struct.Instant.html" title="struct std::time::Instant"><code>std::time::Instant</code></a> fulfills some of our requirements:</p>
+<ul>
+<li>It’s monotonic, guaranteed (<a href="https://doc.rust-lang.org/1.47.0/src/std/time.rs.html#213-237">sort of</a>).</li>
+<li>It can be compared to other timespans.</li>
+</ul>
+<p>However:</p>
+<ul>
+<li>It can’t be serialized.</li>
+<li>It’s not guaranteed that the clock source it uses contains suspend/hibernation time across all operating systems.</li>
+</ul>
+<h2 id="example"><a class="doc-anchor" href="#example">§</a>Example</h2>
+<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">let </span>start = zeitstempel::now();
+thread::sleep(Duration::from_millis(<span class="number">2</span>));
+
+<span class="kw">let </span>diff = Duration::from_nanos(zeitstempel::now() - start);
+<span class="macro">assert!</span>(diff &gt;= Duration::from_millis(<span class="number">2</span>));</code></pre></div><h2 id="supported-operating-systems"><a class="doc-anchor" href="#supported-operating-systems">§</a>Supported operating systems</h2>
+<p>We support the following operating systems:</p>
+<ul>
+<li>Windows*</li>
+<li>macOS</li>
+<li>Linux</li>
+<li>Android</li>
+<li>iOS</li>
+</ul>
+<p>For other operating systems there’s a fallback to <code>std::time::Instant</code>,
+compared against a process-global fixed reference point.
+We don’t guarantee that measured time includes time the system spends in sleep or hibernation.</p>
+<p>* To use native Windows 10 functionality enable the <code>win10plus</code> feature. Otherwise it will use the fallback.</p>
+</div></details><h2 id="modules" class="section-header">Modules<a href="#modules" class="anchor">§</a></h2><dl class="item-table"><dt><a class="mod" href="linux/index.html" title="mod zeitstempel::linux">linux</a><span title="Restricted Visibility">&nbsp;🔒</span> </dt></dl><h2 id="functions" class="section-header">Functions<a href="#functions" class="anchor">§</a></h2><dl class="item-table"><dt><a class="fn" href="fn.now.html" title="fn zeitstempel::now">now</a></dt><dd>Returns a timestamp corresponding to “now”.</dd></dl></section></div></main></body></html>

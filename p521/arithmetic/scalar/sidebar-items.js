@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["scalar_impl"],"struct":["Scalar"]};

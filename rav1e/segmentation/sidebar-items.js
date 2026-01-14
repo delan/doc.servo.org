@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAX_SEGMENTS"],"fn":["segment_idx_from_distortion","segmentation_optimize","segmentation_optimize_inner","select_segment"]};

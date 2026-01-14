@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["GetConstructorObject","Wrap"],"mod":["Blob_Binding","GenericBindings"],"trait":["BlobMethods"],"type":["BlobPart","BlobPropertyBag"]};

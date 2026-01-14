@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAXQ","MINQ","QINDEX_RANGE","ac_qlookup_10_Q3_raw","ac_qlookup_12_Q3_raw","ac_qlookup_Q3_raw","dc_qlookup_10_Q3_raw","dc_qlookup_12_Q3_raw","dc_qlookup_Q3_raw"],"fn":["nonzero_checked"],"static":["ac_qlookup_10_Q3","ac_qlookup_12_Q3","ac_qlookup_Q3","dc_qlookup_10_Q3","dc_qlookup_12_Q3","dc_qlookup_Q3"]};

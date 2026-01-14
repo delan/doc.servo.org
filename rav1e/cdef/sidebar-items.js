@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["CDEF_HAVE_ALL","CDEF_HAVE_BOTTOM","CDEF_HAVE_LEFT","CDEF_HAVE_RIGHT","CDEF_HAVE_TOP","CDEF_SEC_STRENGTHS","CDEF_VERY_LARGE"],"fn":["adjust_strength","cdef_analyze_superblock","cdef_analyze_superblock_range","cdef_filter_superblock","cdef_filter_tile"],"mod":["rust"],"struct":["CdefDirections"]};

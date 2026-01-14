@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAX_COMPONENTS","MAX_DIMENSIONS"],"struct":["ICCChunk","ImageInfo","JpegDecoder"],"type":["ColorConvert16Ptr","IDCTPtr"]};

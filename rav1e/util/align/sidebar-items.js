@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Align64","Aligned","AlignedBoxedSlice"]};

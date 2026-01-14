@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["define_fixed_size_iter"],"struct":["ObjectLockGuard"],"trait":["Displayable"]};

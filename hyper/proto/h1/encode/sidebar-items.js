@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["CHUNK_SIZE_MAX_BYTES","USIZE_BYTES"],"enum":["BufKind","Kind"],"fn":["allowed_trailer_field_map","is_valid_trailer_field"],"struct":["ChunkSize","EncodedBuf","Encoder","NotEof"],"type":["StaticBuf"]};

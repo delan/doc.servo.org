@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["SERDE_CONTENT_CANARY","SERDE_TAG_KEY_CANARY"],"enum":["Terminator"],"fn":["from_bytes","from_reader","from_str","struct_error_name"],"macro":["guard_recursion"],"mod":["id","tag","value"],"struct":["CommaSeparated","Deserializer","Enum","SerdeEnumContent"]};

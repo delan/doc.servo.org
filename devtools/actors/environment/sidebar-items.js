@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["EnvironmentScope","EnvironmentType"],"struct":["EnvironmentActor","EnvironmentActorMsg","EnvironmentBindings","EnvironmentFunction"]};

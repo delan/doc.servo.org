@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["ONE_OVER_64"],"enum":["PendingElement"],"fn":["matrix_mul_scaled","transform"],"mod":["hint"],"struct":["CharstringEvaluator","FontDict","HintedTransformingSink","NopFilteringSink","Outlines","PenSink","PrivateDict","ScalingSink26Dot6","ScalingTransformingSink","Subfont","TopDict"]};

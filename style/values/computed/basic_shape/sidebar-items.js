@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["animate_shape"],"type":["BasicShape","Circle","ClipPath","CommandEndPoint","ControlPoint","CoordinatePair","Ellipse","InsetRect","PathOrShapeFunction","RelativeControlPoint","Shape","ShapeCommand","ShapeOutside","ShapeRadius"]};

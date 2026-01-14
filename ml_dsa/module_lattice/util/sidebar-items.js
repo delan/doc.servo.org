@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["define_truncate"],"trait":["Flatten","Truncate","Unflatten"]};

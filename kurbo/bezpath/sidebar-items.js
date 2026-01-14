@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["TO_QUAD_TOL"],"enum":["PathEl","PathSeg"],"fn":["cubic_bez_coefs","flatten","quadratic_bez_coefs","reverse_subpath","segments"],"struct":["BezPath","LineIntersection","MinDistance","PathSegIter","Segments"]};

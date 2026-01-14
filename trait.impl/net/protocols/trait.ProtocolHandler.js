@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["net",[]],["servoshell",[["impl <a class=\"trait\" href=\"net/protocols/trait.ProtocolHandler.html\" title=\"trait net::protocols::ProtocolHandler\">ProtocolHandler</a> for <a class=\"struct\" href=\"servoshell/desktop/protocols/resource/struct.ResourceProtocolHandler.html\" title=\"struct servoshell::desktop::protocols::resource::ResourceProtocolHandler\">ResourceProtocolHandler</a>"],["impl <a class=\"trait\" href=\"net/protocols/trait.ProtocolHandler.html\" title=\"trait net::protocols::ProtocolHandler\">ProtocolHandler</a> for <a class=\"struct\" href=\"servoshell/desktop/protocols/servo/struct.ServoProtocolHandler.html\" title=\"struct servoshell::desktop::protocols::servo::ServoProtocolHandler\">ServoProtocolHandler</a>"],["impl <a class=\"trait\" href=\"net/protocols/trait.ProtocolHandler.html\" title=\"trait net::protocols::ProtocolHandler\">ProtocolHandler</a> for <a class=\"struct\" href=\"servoshell/desktop/protocols/urlinfo/struct.UrlInfoProtocolHander.html\" title=\"struct servoshell::desktop::protocols::urlinfo::UrlInfoProtocolHander\">UrlInfoProtocolHander</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[10,1086]}

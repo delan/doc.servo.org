@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["INVARIANT_VIOLATED_MSG","MAX_LENGTH","PAIR_DELIMITER","PARAMS_DELIMITER"],"struct":["Buffer","Iter","ParamsString"],"type":["Pair"]};

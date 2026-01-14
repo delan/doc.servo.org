@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"attr":["inherent"],"mod":["expand","parse","verbatim"]};

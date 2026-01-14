@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["HEBREW_SHAPER","S_DAGESH_FORMS"],"fn":["compose","reorder_marks_hebrew"]};

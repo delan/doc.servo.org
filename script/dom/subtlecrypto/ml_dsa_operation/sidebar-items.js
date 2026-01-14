@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["ID_ALG_ML_DSA_44","ID_ALG_ML_DSA_65","ID_ALG_ML_DSA_87"],"enum":["MlDsaPrivateKeyStructure"],"fn":["convert_handle_to_public_key","convert_handle_to_seed_and_public_key","convert_public_key_to_handle","convert_seed_to_handles","export_key","generate_key","import_key","sign","verify"],"struct":["Both"]};

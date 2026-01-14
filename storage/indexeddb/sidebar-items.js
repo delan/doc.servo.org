@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["OpenRequest"],"fn":["backend_error_from_sqlite_error"],"mod":["engines"],"struct":["IndexedDBDescription","IndexedDBEnvironment","IndexedDBManager","VersionUpgrade"],"trait":["IndexedDBThreadFactory"]};

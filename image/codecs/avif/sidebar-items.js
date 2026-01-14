@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ColorSpace"],"mod":["encoder"],"struct":["AvifEncoder"]};

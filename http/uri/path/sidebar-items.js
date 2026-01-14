@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["NONE"],"enum":["PathAndQueryError"],"fn":["validate_path_and_query_bytes"],"struct":["PathAndQuery"]};

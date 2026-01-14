@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["CONSTRUCTED_FLAG"],"enum":["Tag"],"mod":["class","mode","number"],"trait":["FixedTag","Tagged"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAX_INLINE_COLOR_STOPS","MAX_TRAVERSAL_DEPTH"],"fn":["get_clipbox_font_units","make_sorted_resolved_stops","traverse_v0_range","traverse_with_callbacks"],"struct":["CollectFillGlyphPainter"],"type":["ColorStopVec","PaintDecycler"]};

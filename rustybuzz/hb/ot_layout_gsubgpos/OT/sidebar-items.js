@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["hb_ot_apply_context_t"]};

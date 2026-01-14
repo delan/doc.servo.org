@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Client","Dispatcher","OptGuard"],"trait":["Dispatch"],"type":["ClientRx"]};

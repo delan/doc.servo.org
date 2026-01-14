@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["hb_ot_shape_plan_t"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["instance_record"],"struct":["InstanceRecord","VariationAxisRecord"],"type":["AxisInstanceArrays","Fvar"]};

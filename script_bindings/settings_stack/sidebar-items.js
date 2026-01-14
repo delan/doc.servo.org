@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["StackEntryKind"],"struct":["GenericAutoEntryScript","GenericAutoIncumbentScript","StackEntry"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ImageFormat"],"fn":["decoder_to_vec","load_rect"],"struct":["ImageReadBuffer","Pixels","SubImage","SubImageInner"],"trait":["AnimationDecoder","GenericImage","GenericImageView","ImageDecoder","ImageDecoderRect","ImageEncoder"],"type":["DerefPixel","DerefSubpixel"]};

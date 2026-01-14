@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["BITS","LO_MASK"],"fn":["from_doublebigdigit","get_hi","get_lo","to_doublebigdigit"],"type":["BigDigit","DoubleBigDigit","SignedDoubleBigDigit"]};

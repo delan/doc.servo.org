@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["INV_INTERMEDIATE_SHIFTS"],"fn":["inverse_transform_add"]};

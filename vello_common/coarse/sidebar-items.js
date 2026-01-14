@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MODE_CPU","MODE_HYBRID"],"enum":["Cmd"],"struct":["Bbox","Clip","CmdAlphaFill","CmdClipAlphaFill","CmdClipFill","CmdFill","Layer","Wide","WideTile"],"trait":["BlendModeExt"]};

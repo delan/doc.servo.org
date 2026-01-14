@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Number"],"macro":["float_ty","number_from_impl"],"mod":["private"],"struct":["F32","F64"]};

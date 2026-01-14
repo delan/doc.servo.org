@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["tuple_impl","tuple_impls"],"struct":["Alphabetic","Alphanumeric"]};

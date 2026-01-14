@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ChromaSampling","PixelType"],"macro":["impl_cast_from_pixel_to_primitive","impl_cast_from_primitive"],"trait":["CastFromPrimitive","Coefficient","Pixel","RegisteredPrimitive"]};

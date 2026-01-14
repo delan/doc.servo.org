@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["SubpixelBin"],"fn":["invisible_char","is_cjk","is_cjk_break_allowed","is_cjk_ideograph","is_kana"],"struct":["Font","FontImpl","GlyphAllocation","GlyphCacheKey","GlyphInfo","ScaledMetrics","UvRect"],"trait":["FontExt"]};

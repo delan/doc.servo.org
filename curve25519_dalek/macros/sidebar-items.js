@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["define_add_assign_variants","define_add_variants","define_mul_assign_variants","define_mul_variants","define_sub_assign_variants","define_sub_variants"]};

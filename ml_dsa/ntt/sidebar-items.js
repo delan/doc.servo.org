@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["ZETA_POW_BITREV"],"trait":["Ntt","NttInverse"]};

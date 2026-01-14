@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["sad_plane"],"mod":["rust"]};

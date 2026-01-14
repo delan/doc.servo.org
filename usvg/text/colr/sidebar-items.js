@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["paint_transform"],"struct":["Builder","GlyphPainter"],"trait":["XmlWriterExt"]};

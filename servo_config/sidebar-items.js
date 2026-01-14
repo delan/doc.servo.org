@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["pref"],"mod":["opts","pref_util","prefs"]};

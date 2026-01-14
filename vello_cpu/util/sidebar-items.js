@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["normalized_mul"],"mod":["scalar"],"trait":["BlendModeExt","Div255Ext","EncodedImageExt","NormalizedMulExt","Premultiply"]};

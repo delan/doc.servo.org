@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Error"],"macro":["impl_sample_range_u"],"mod":["float","int","other"],"struct":["Uniform","UniformChar","UniformDuration","UniformFloat","UniformInt","UniformUsize"],"trait":["SampleBorrow","SampleRange","SampleUniform","UniformSampler"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["convert_bounding_box","convert_extend","convert_point"],"struct":["ColrPainter"],"trait":["ColrRenderer"]};

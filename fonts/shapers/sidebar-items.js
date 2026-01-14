@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["NO_GLYPH"],"fn":["shape_text_harfbuzz","unicode_script_to_iso15924_tag"],"mod":["harfbuzz"],"struct":["ShapedGlyphEntry"],"trait":["HarfBuzzShapedGlyphData"]};

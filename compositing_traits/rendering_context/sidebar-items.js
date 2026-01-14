@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Error"],"struct":["Framebuffer","OffscreenRenderingContext","SoftwareRenderingContext","SurfmanRenderingContext","WindowRenderingContext"],"trait":["RenderingContext"],"type":["RenderToParentCallback"]};

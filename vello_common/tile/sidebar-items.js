@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAX_LINES_PER_PATH"],"struct":["Tile","Tiles"]};

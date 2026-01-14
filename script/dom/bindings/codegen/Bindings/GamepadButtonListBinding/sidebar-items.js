@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["Wrap"],"mod":["GamepadButtonList_Binding","GenericBindings"],"trait":["GamepadButtonListMethods"]};

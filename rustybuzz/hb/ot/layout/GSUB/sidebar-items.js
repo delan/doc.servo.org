@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["alternate_set","alternate_subst","ligature","ligature_set","ligature_subst","multi_subst","reverse_chain_single_subst","sequence","single_subst","subst_lookup"]};

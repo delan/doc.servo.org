@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["FAST_THRESHOLD"],"fn":["detect_scale_factor"]};

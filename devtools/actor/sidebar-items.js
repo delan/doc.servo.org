@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ActorError"],"struct":["ActorRegistry","DowncastableActorArc"],"trait":["Actor","ActorAsAny","ActorEncode"]};

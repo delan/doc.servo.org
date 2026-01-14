@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["blurred_rounded_rect","coarse","colr","encode","flatten","flatten_simd","glyph","mask","math","paint","pixmap","recording","simd","strip","strip_generator","tile","util"]};

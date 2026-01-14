@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["INCR_LIMIT","NUMBER_OF_PRIMES","PRIMES_A","PRIMES_B","PRIME_BIT_MASK","PRIME_GAP"],"fn":["get_bit","is_bit_set","next_prime","probably_prime","probably_prime_lucas","probably_prime_miller_rabin"],"struct":["BIG_1","BIG_2","BIG_3","BIG_64"]};

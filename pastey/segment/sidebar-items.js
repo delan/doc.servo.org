@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Segment"],"fn":["get_literal_string_value","get_token_tree_string_value","parse","paste"],"struct":["Colon","LitStr"]};

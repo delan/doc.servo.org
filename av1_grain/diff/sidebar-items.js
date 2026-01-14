@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["BLOCK_SIZE","BLOCK_SIZE_SQUARED"],"enum":["NoiseStatus"],"fn":["verify_dimensions_match"],"mod":["solver"],"struct":["DiffGenerator"]};

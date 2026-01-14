@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["BlobPart"],"fn":["DefineDOMInterface","GetConstructorObject","GetProtoObject","Wrap"],"mod":["Blob_Binding"],"struct":["BlobPropertyBag"],"trait":["BlobMethods"]};

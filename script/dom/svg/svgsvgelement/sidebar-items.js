@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["_IMPL_DOMOBJECT_FOR_SVGSVGElement"],"fn":["ratio_from_view_box"],"struct":["SVGSVGElement"],"trait":["LayoutSVGSVGElementHelpers"]};

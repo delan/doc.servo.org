@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["div_rem","div_rem_digit","div_wide"]};

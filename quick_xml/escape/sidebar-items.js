@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["EscapeError","ParseCharRefError"],"fn":["_escape","escape","escape_char","from_str_radix","minimal_escape","normalize_xml10_eol_step","normalize_xml10_eols","normalize_xml11_eol_step","normalize_xml11_eols","parse_number","partial_escape","resolve_predefined_entity","resolve_xml_entity","unescape","unescape_with"]};

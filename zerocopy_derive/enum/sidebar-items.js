@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["derive_is_bit_valid","generate_tag_consts","generate_tag_enum","generate_variant_structs","generate_variants_union","tag_ident","variant_struct_ident","variants_union_field_ident"]};

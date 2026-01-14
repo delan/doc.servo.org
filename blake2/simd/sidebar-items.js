@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["impl_vector4"],"mod":["simd_opt","simdint","simdop","simdty"],"trait":["Vector4"]};

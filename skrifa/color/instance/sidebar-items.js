@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ResolvedPaint"],"fn":["resolve_clip_box","resolve_paint"],"struct":["ColorStops","ColrInstance","ResolvedColorStop"],"type":["PaintId"]};

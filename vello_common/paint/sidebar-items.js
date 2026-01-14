@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ImageSource","Paint"],"struct":["ImageId","IndexedPaint","PremulColor"],"type":["Image","PaintType"]};

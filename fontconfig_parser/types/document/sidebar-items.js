@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ConfigPart"],"macro":["define_config_part_from"],"struct":["DirData","FontConfig","RemapDirData"]};

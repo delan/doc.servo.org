@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["multiple_of_value"],"macro":["impl_per","stringify_outputs"],"mod":["sealed"],"struct":["Day","Hour","Microsecond","Millisecond","Minute","Nanosecond","Second","Week"]};

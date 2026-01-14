@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["const_add","const_inv","const_mul","const_neg","const_pow","const_sub","macros"],"struct":["Residue"],"trait":["ResidueParams"]};

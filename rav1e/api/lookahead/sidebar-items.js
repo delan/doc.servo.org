@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["IMP_BLOCK_AREA_IN_MV_UNITS","IMP_BLOCK_MV_UNITS_PER_PIXEL","IMP_BLOCK_SIZE_IN_MV_UNITS"],"fn":["compute_motion_vectors","estimate_importance_block_difference","estimate_inter_costs","estimate_intra_costs"]};

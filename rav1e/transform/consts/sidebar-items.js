@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"static":["INV_SQRT2","SQRT2","SQRT2_BITS"]};

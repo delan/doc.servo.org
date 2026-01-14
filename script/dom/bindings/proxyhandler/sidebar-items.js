@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["init","is_platform_object_same_origin","set_property_descriptor"]};

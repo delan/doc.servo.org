@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["SCALE_BITS"],"fn":["clamp_avx","idct_avx2","idct_int_avx2_inner","shuffle"]};

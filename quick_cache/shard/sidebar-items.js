@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAX_F"],"enum":["Entry","InsertStrategy","ResidentState"],"macro":["record_hit","record_hit_mut","record_miss","record_miss_mut"],"struct":["CacheShard","Placeholder","RefMut","Resident"],"trait":["SharedPlaceholder"]};

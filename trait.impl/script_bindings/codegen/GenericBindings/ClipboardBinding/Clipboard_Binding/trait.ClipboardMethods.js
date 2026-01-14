@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["script",[["impl <a class=\"trait\" href=\"script/dom/bindings/codegen/Bindings/ClipboardBinding/trait.ClipboardMethods.html\" title=\"trait script::dom::bindings::codegen::Bindings::ClipboardBinding::ClipboardMethods\">ClipboardMethods</a>&lt;<a class=\"struct\" href=\"script/dom/bindings/codegen/DomTypeHolder/struct.DomTypeHolder.html\" title=\"struct script::dom::bindings::codegen::DomTypeHolder::DomTypeHolder\">DomTypeHolder</a>&gt; for <a class=\"struct\" href=\"script/dom/clipboard/struct.Clipboard.html\" title=\"struct script::dom::clipboard::Clipboard\">Clipboard</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[586]}

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["BitmapData","BitmapFormat","Origin","StrikeKind","StrikesKind"],"struct":["BdtMetrics","BdtTables","BitmapGlyph","BitmapStrike","BitmapStrikes","MaskData"],"type":["CbdtTables","EbdtTables"]};

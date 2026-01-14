@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["BOX_FUTURE_THRESHOLD"],"enum":["RuntimeFlavor","Timer","TimerFlavor"],"mod":["blocking","builder","config","context","driver","handle","id","io","metrics","park","runtime","scheduler","task","task_hooks","thread_id","time"],"struct":["Builder","EnterGuard","Handle","Id","Runtime","RuntimeMetrics","TryCurrentError"],"type":["Callback"]};

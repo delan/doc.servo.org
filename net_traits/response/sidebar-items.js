@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["CacheState","HttpsState","RedirectTaint","ResponseBody","ResponseType","TerminationReason"],"struct":["Response","ResponseInit"]};

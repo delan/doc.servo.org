@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["array_type","atomic_impl","deref_impl","impl_type_for_wrapper","map_impl","tuple_impls"]};

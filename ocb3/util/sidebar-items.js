@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["BLOCK_SIZE"],"fn":["double","inplace_xor","ntz","split_into_two_blocks"],"type":["Block"]};

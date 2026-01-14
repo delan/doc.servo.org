@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Indicates that if input text is changed on one side of the beginning of the cluster this glyph is part of, then the shaping results for the other side might change."><title>UNSAFE_TO_CONCAT in rustybuzz::hb::buffer::glyph_flag - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2"href="../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../static.files/normalize-9960930a.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-e56847b5.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="rustybuzz" data-themes="" data-resource-suffix="" data-rustdoc-version="1.91.0 (f8297e351 2025-10-28)" data-channel="1.91.0" data-search-js="search-e256b49e.js" data-stringdex-js="stringdex-c3e638e9.js" data-settings-js="settings-c38705f0.js" ><script src="../../../../static.files/storage-e2aeef58.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-6dc2a7f3.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-263c88ec.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-eab170b8.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-044be391.svg"></head><body class="rustdoc constant"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><rustdoc-topbar><h2><a href="#">UNSAFE_TO_CONCAT</a></h2></rustdoc-topbar><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../rustybuzz/index.html">rustybuzz</a><span class="version">0.20.1</span></h2></div><div class="sidebar-elems"><div id="rustdoc-modnav"><h2><a href="index.html">In rustybuzz::<wbr>hb::<wbr>buffer::<wbr>glyph_<wbr>flag</a></h2></div></div></nav><div class="sidebar-resizer" title="Drag to resize sidebar"></div><main><div class="width-limiter"><section id="main-content" class="content"><div class="main-heading"><div class="rustdoc-breadcrumbs"><a href="../../../index.html">rustybuzz</a>::<wbr><a href="../../index.html">hb</a>::<wbr><a href="../index.html">buffer</a>::<wbr><a href="index.html">glyph_flag</a></div><h1>Constant <span class="constant">UNSAFE_<wbr>TO_<wbr>CONCAT</span>&nbsp;<button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a class="src" href="../../../../src/rustybuzz/hb/buffer.rs.html#92">Source</a> </span></div><pre class="rust item-decl"><code>pub const UNSAFE_TO_CONCAT: <a class="primitive" href="https://doc.rust-lang.org/1.91.0/std/primitive.u32.html">u32</a> = 0x00000002;</code></pre><details class="toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><p>Indicates that if input text is changed on one side
+of the beginning of the cluster this glyph is part
+of, then the shaping results for the other side
+might change.</p>
+<p>Note that the absence of this flag will NOT by
+itself mean that it IS safe to concat text. Only
+two pieces of text both of which clear of this
+flag can be concatenated safely.</p>
+<p>This can be used to optimize paragraph layout,
+by avoiding re-shaping of each line after
+line-breaking, by limiting the reshaping to a
+small piece around the breaking position only,
+even if the breaking position carries the
+UNSAFE_TO_BREAK or when hyphenation or
+other text transformation happens at
+line-break position, in the following way:</p>
+<ol>
+<li>Iterate back from the line-break
+position until the first cluster
+start position that is NOT unsafe-to-concat,</li>
+<li>shape the segment from there till the
+end of line, 3. check whether the resulting
+glyph-run also is clear of the unsafe-to-concat
+at its start-of-text position; if it is, just
+splice it into place and the line is shaped;
+If not, move on to a position further back that
+is clear of unsafe-to-concat and retry from
+there, and repeat.</li>
+</ol>
+<p>At the start of next line a similar
+algorithm can be implemented.
+That is: 1. Iterate forward from
+the line-break position until the first cluster
+start position that is NOT unsafe-to-concat, 2.
+shape the segment from beginning of the line to
+that position, 3. check whether the resulting
+glyph-run also is clear of the unsafe-to-concat
+at its end-of-text position; if it is, just splice
+it into place and the beginning is shaped; If not,
+move on to a position further forward that is clear
+of unsafe-to-concat and retry up to there, and repeat.</p>
+<p>A slight complication will arise in the
+implementation of the algorithm above,
+because while
+our buffer API has a way to return flags
+for position corresponding to
+start-of-text, there is currently no
+position corresponding to end-of-text.
+This limitation can be alleviated by
+shaping more text than needed and
+looking for unsafe-to-concat flag
+within text clusters.</p>
+<p>The UNSAFE_TO_BREAK flag will always imply this flag.
+To use this flag, you must enable the buffer flag
+PRODUCE_UNSAFE_TO_CONCAT during shaping, otherwise
+the buffer flag will not be reliably produced.</p>
+</div></details></section></div></main></body></html>

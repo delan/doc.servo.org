@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["BufferSource","Constructor"],"fn":["byte_size","construct_typed_array","create_array_buffer_with_size","create_buffer_source","create_buffer_source_with_constructor","create_buffer_source_with_length","create_heap_buffer_source_with_length","range_overlap"],"struct":["DataBlock","DataView","HeapBufferSource"],"type":["RootedTypedArray"]};

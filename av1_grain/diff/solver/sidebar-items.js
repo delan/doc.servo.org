@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["BLOCK_NORMALIZATION","LOW_POLY_NUM_PARAMS","NOISE_MODEL_LAG"],"mod":["util"],"struct":["EquationSystem","FlatBlockFinder","IndexAndScore","NoiseModel","NoiseModelState","NoiseStrengthLut","StrengthSolver"]};

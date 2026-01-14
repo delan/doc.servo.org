@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["HI_BIT"],"mod":["add","bit_and","bit_not","bit_or","bit_xor","bits","cmp","encoding","from","mul","neg","rand","shl","shr","sub"],"struct":["Limb"],"type":["WideWord","Word"]};

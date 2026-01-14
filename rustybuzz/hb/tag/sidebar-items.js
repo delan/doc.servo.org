@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["all_tags_from_script","lang_cmp","new_tag_from_script","old_tag_from_script","parse_private_use_subtag","tags_from_language","tags_from_script_and_language"],"trait":["SmallVecExt"],"type":["ThreeTags"]};

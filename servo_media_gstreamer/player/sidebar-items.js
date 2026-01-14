@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["DEFAULT_CAN_RESUME","DEFAULT_MUTED","DEFAULT_PAUSED","DEFAULT_PLAYBACK_RATE","DEFAULT_TIME_RANGES","DEFAULT_VOLUME","MAX_BUFFER_SIZE"],"enum":["PlayerSource"],"fn":["metadata_from_media_info"],"macro":["inner_player_proxy","inner_player_proxy_getter","notify"],"struct":["GStreamerAudioChunk","GStreamerPlayer","PlayerInner","SeekChannel"]};

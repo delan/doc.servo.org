@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["PrefValue"],"macro":["impl_from_pref","impl_pref_from"]};

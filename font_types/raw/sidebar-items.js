@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["int_scalar"],"mod":["sealed"],"struct":["BigEndian"],"trait":["FixedSize","Scalar"]};

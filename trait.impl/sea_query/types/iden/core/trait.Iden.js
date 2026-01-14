@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["sea_query",[]],["storage",[["impl <a class=\"trait\" href=\"sea_query/types/iden/core/trait.Iden.html\" title=\"trait sea_query::types::iden::core::Iden\">Iden</a> for <a class=\"enum\" href=\"storage/indexeddb/engines/sqlite/database_model/enum.Column.html\" title=\"enum storage::indexeddb::engines::sqlite::database_model::Column\">Column</a>"],["impl <a class=\"trait\" href=\"sea_query/types/iden/core/trait.Iden.html\" title=\"trait sea_query::types::iden::core::Iden\">Iden</a> for <a class=\"enum\" href=\"storage/indexeddb/engines/sqlite/object_data_model/enum.Column.html\" title=\"enum storage::indexeddb::engines::sqlite::object_data_model::Column\">Column</a>"],["impl <a class=\"trait\" href=\"sea_query/types/iden/core/trait.Iden.html\" title=\"trait sea_query::types::iden::core::Iden\">Iden</a> for <a class=\"enum\" href=\"storage/indexeddb/engines/sqlite/object_store_index_model/enum.Column.html\" title=\"enum storage::indexeddb::engines::sqlite::object_store_index_model::Column\">Column</a>"],["impl <a class=\"trait\" href=\"sea_query/types/iden/core/trait.Iden.html\" title=\"trait sea_query::types::iden::core::Iden\">Iden</a> for <a class=\"enum\" href=\"storage/indexeddb/engines/sqlite/object_store_model/enum.Column.html\" title=\"enum storage::indexeddb::engines::sqlite::object_store_model::Column\">Column</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[16,1332]}

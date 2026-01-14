@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["strck_ident",[["impl <a class=\"trait\" href=\"strck/trait.Invariant.html\" title=\"trait strck::Invariant\">Invariant</a> for <a class=\"struct\" href=\"strck_ident/rust/struct.RustIdent.html\" title=\"struct strck_ident::rust::RustIdent\">RustIdent</a>"],["impl <a class=\"trait\" href=\"strck/trait.Invariant.html\" title=\"trait strck::Invariant\">Invariant</a> for <a class=\"struct\" href=\"strck_ident/unicode/struct.UnicodeIdent.html\" title=\"struct strck_ident::unicode::UnicodeIdent\">UnicodeIdent</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[518]}

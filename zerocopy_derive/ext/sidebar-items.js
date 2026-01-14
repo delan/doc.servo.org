@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["map_fields","to_ident_str"],"trait":["DataExt"]};

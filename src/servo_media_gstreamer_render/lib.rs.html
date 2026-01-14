@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `/home/runner/.cargo/git/checkouts/media-9074def3f0bdf023/f384dbc/backends/gstreamer/render/lib.rs`."><title>lib.rs - source</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2"href="../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../static.files/normalize-9960930a.css"><link rel="stylesheet" href="../../static.files/rustdoc-e56847b5.css"><meta name="rustdoc-vars" data-root-path="../../" data-static-root-path="../../static.files/" data-current-crate="servo_media_gstreamer_render" data-themes="" data-resource-suffix="" data-rustdoc-version="1.91.0 (f8297e351 2025-10-28)" data-channel="1.91.0" data-search-js="search-e256b49e.js" data-stringdex-js="stringdex-c3e638e9.js" data-settings-js="settings-c38705f0.js" ><script src="../../static.files/storage-e2aeef58.js"></script><script defer src="../../static.files/src-script-813739b1.js"></script><script defer src="../../src-files.js"></script><script defer src="../../static.files/main-6dc2a7f3.js"></script><noscript><link rel="stylesheet" href="../../static.files/noscript-263c88ec.css"></noscript><link rel="alternate icon" type="image/png" href="../../static.files/favicon-32x32-eab170b8.png"><link rel="icon" type="image/svg+xml" href="../../static.files/favicon-044be391.svg"></head><body class="rustdoc src"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="src-sidebar-title"><h2>Files</h2></div></nav><div class="sidebar-resizer" title="Drag to resize sidebar"></div><main><section id="main-content" class="content"><div class="main-heading"><h1><div class="sub-heading">servo_media_gstreamer_render/</div>lib.rs</h1><rustdoc-toolbar></rustdoc-toolbar></div><div class="example-wrap digits-2"><pre class="rust"><code><a href=#1 id=1 data-nosnippet>1</a><span class="doccomment">//! `Render` is a trait to be used by GStreamer's backend player
+<a href=#2 id=2 data-nosnippet>2</a>//!
+<a href=#3 id=3 data-nosnippet>3</a>//! The purpose of this trait is to provide different accelerated
+<a href=#4 id=4 data-nosnippet>4</a>//! video renders.
+<a href=#5 id=5 data-nosnippet>5</a>//!
+<a href=#6 id=6 data-nosnippet>6</a>//! By default, the player will use a rendering mechanism based on
+<a href=#7 id=7 data-nosnippet>7</a>//! mapping the raw video into CPU memory, but it might be other
+<a href=#8 id=8 data-nosnippet>8</a>//! rendering mechanism. The main target for this trait are
+<a href=#9 id=9 data-nosnippet>9</a>//! OpenGL-based render mechanisms.
+<a href=#10 id=10 data-nosnippet>10</a>//!
+<a href=#11 id=11 data-nosnippet>11</a>//! Each platform (Unix, MacOS, Windows) might offer an implementation
+<a href=#12 id=12 data-nosnippet>12</a>//! of this trait, so the player could setup a proper GStreamer
+<a href=#13 id=13 data-nosnippet>13</a>//! pipeline, and handle the produced buffers.
+<a href=#14 id=14 data-nosnippet>14</a>//!
+<a href=#15 id=15 data-nosnippet>15</a>
+<a href=#16 id=16 data-nosnippet>16</a></span><span class="kw">pub trait </span>Render {
+<a href=#17 id=17 data-nosnippet>17</a>    <span class="doccomment">/// Returns `True` if the render implementation uses any version
+<a href=#18 id=18 data-nosnippet>18</a>    /// or flavor of OpenGL
+<a href=#19 id=19 data-nosnippet>19</a>    </span><span class="kw">fn </span>is_gl(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; bool;
+<a href=#20 id=20 data-nosnippet>20</a>
+<a href=#21 id=21 data-nosnippet>21</a>    <span class="doccomment">/// Returns the Player's `Frame` to be consumed by the API user.
+<a href=#22 id=22 data-nosnippet>22</a>    ///
+<a href=#23 id=23 data-nosnippet>23</a>    /// The implementation of this method will map the `sample`'s
+<a href=#24 id=24 data-nosnippet>24</a>    /// buffer to the rendering appropriate structure. In the case of
+<a href=#25 id=25 data-nosnippet>25</a>    /// OpenGL-based renders, the `Frame`, instead of the raw data,
+<a href=#26 id=26 data-nosnippet>26</a>    /// will transfer the texture ID.
+<a href=#27 id=27 data-nosnippet>27</a>    ///
+<a href=#28 id=28 data-nosnippet>28</a>    /// # Arguments
+<a href=#29 id=29 data-nosnippet>29</a>    ///
+<a href=#30 id=30 data-nosnippet>30</a>    /// * `sample` -  the GStreamer sample with the buffer to map
+<a href=#31 id=31 data-nosnippet>31</a>    </span><span class="kw">fn </span>build_frame(<span class="kw-2">&amp;</span><span class="self">self</span>, sample: gst::Sample) -&gt; <span class="prelude-ty">Result</span>&lt;sm_player::video::VideoFrame, ()&gt;;
+<a href=#32 id=32 data-nosnippet>32</a>
+<a href=#33 id=33 data-nosnippet>33</a>    <span class="doccomment">/// Sets the proper *video-sink* to GStreamer's `pipeline`, this
+<a href=#34 id=34 data-nosnippet>34</a>    /// video sink is simply a decorator of the passed `appsink`.
+<a href=#35 id=35 data-nosnippet>35</a>    ///
+<a href=#36 id=36 data-nosnippet>36</a>    /// # Arguments
+<a href=#37 id=37 data-nosnippet>37</a>    ///
+<a href=#38 id=38 data-nosnippet>38</a>    /// * `appsink` - the appsink GStreamer element to decorate
+<a href=#39 id=39 data-nosnippet>39</a>    /// * `pipeline` - the GStreamer pipeline to set the video sink
+<a href=#40 id=40 data-nosnippet>40</a>    </span><span class="kw">fn </span>build_video_sink(
+<a href=#41 id=41 data-nosnippet>41</a>        <span class="kw-2">&amp;</span><span class="self">self</span>,
+<a href=#42 id=42 data-nosnippet>42</a>        appsink: <span class="kw-2">&amp;</span>gst::Element,
+<a href=#43 id=43 data-nosnippet>43</a>        pipeline: <span class="kw-2">&amp;</span>gst::Element,
+<a href=#44 id=44 data-nosnippet>44</a>    ) -&gt; <span class="prelude-ty">Result</span>&lt;(), sm_player::PlayerError&gt;;
+<a href=#45 id=45 data-nosnippet>45</a>}</code></pre></div></section></main></body></html>

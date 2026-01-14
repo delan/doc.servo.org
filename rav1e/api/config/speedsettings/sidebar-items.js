@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["PredictionModesSetting","SGRComplexityLevel","SceneDetectionSpeed","SegmentationLevel"],"struct":["MotionSpeedSettings","PartitionRange","PartitionSpeedSettings","PredictionSpeedSettings","SpeedSettings","TransformSpeedSettings"]};

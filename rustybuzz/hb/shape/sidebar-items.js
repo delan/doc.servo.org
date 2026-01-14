@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["shape","shape_with_plan"]};

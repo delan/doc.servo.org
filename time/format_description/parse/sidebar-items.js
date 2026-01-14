@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["attach_location","parse","parse_borrowed","parse_owned","unused"],"macro":["validate_version","version"],"mod":["ast","format_item","lexer","strftime"],"struct":["Error","ErrorInner","Location","Span","Spanned","Unused"],"trait":["SpannedValue"]};

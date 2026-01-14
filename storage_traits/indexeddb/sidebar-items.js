@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AsyncOperation","AsyncReadOnlyOperation","AsyncReadWriteOperation","BackendError","CreateObjectResult","IndexedDBKeyType","IndexedDBThreadMsg","IndexedDBTxnMode","KeyPath","OpenDatabaseResult","PutItemResult","SyncOperation"],"struct":["DatabaseInfo","IndexedDBKeyRange","IndexedDBRecord"],"type":["BackendResult","DbError","DbResult"]};

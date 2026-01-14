@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["LogicalRect","LogicalSides","LogicalSides1D","LogicalVec2"],"trait":["ToLogical","ToLogicalWithContainingBlock"],"type":["AuOrAuto","LengthPercentageOrAuto","PhysicalPoint","PhysicalRect","PhysicalSides","PhysicalSize","PhysicalVec"]};

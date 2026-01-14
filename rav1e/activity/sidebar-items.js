@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["apply_ssim_boost","ssim_boost","ssim_boost_rsqrt","variance_8x8"],"struct":["ActivityMask","RsqrtOutput"]};

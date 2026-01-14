@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAX_MAX_KEY_FRAME_INTERVAL","MAX_RDO_LOOKAHEAD_FRAMES"],"struct":["EncoderConfig"]};

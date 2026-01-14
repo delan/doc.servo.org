@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["bleed_opaque_color","blur_transparent_pixels","blurred_dirty_alpha","chain","clamp","premultiplied_minmax","weighed_pixel"]};

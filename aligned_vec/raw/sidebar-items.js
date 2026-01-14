@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["capacity_overflow","grow_unchecked","is_valid_alloc","try_grow_unchecked","try_with_capacity_unchecked","with_capacity_unchecked"],"struct":["ARawVec"]};

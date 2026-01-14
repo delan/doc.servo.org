@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["OPEN_TYPE_LANGUAGES"],"fn":["lang_matches","strncmp","subtag_matches","tags_from_complex_language"],"struct":["LangTag"]};

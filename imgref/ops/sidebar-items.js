@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["index_fail"],"macro":["impl_imgref_index","impl_imgref_index_mut","impl_imgref_row_index","impl_imgref_row_index_mut"]};

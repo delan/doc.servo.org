@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["IMP_BLOCK_DIFF_THRESHOLD"],"fn":["fast_idiv"],"mod":["fast","standard"],"struct":["ScaleFunction","SceneChangeDetector","ScenecutResult"]};

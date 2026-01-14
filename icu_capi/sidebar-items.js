@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["call_constructor","call_constructor_unstable"],"mod":["bidi","calendar","collections_sets","common","date","datetime","errors","locale","properties_iter","properties_maps","properties_names","properties_sets","properties_unisets","provider","script","segmenter_grapheme","segmenter_line","segmenter_sentence","segmenter_word","time","utf","week"]};

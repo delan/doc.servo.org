@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["create_quotes_map","quotes_data_for_lang","quotes_for_lang"],"static":["DEFAULT_QUOTES","QUOTES_MAP"],"struct":["QuotePair","QuotesData"]};

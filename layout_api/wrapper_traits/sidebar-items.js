@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["PseudoElementChain","ReverseChildrenIterator","TreeIterator"],"trait":["LayoutDataTrait","LayoutNode","ThreadSafeLayoutElement","ThreadSafeLayoutNode"]};

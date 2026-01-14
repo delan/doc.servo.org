@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["CDEF_DIV_TABLE"],"fn":["cdef_filter_block","cdef_find_dir","constrain","first_max_element","pad_into_tmp16"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["FrameType"],"fn":["DefineDOMInterface","GetProtoObject","Wrap"],"mod":["Client_Binding","FrameTypeValues"],"trait":["ClientMethods"]};

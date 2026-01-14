@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["impl_traits_for_atomics","unsafe_impl_transmute_from_for_atomic"],"mod":["atomic_16","atomic_32","atomic_64","atomic_8","atomic_ptr"]};

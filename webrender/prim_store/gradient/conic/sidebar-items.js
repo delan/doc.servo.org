@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["conic_gradient_pattern","conic_gradient_pattern_with_table"],"struct":["ConicGradient","ConicGradientCacheKey","ConicGradientInstance","ConicGradientKey","ConicGradientParams","ConicGradientTask","ConicGradientTemplate"],"type":["ConicGradientDataHandle"]};

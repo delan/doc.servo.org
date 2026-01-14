@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["PKG_DESCRIPTION","PKG_NAME","PKG_VERSION"],"macro":["chars"],"mod":["iter","iter_fused","macros","pkg_info","range","step"],"struct":["CharIter","CharRange"]};

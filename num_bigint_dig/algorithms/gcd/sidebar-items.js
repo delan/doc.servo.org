@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["euclid_udpate","extended_gcd","lehmer_gcd","lehmer_simulate","lehmer_update","xgcd"]};

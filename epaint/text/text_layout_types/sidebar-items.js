@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["TextWrapMode"],"struct":["Galley","Glyph","LayoutJob","LayoutSection","PlacedRow","Row","RowVisuals","TextFormat","TextWrapping"]};

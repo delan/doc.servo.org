@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["extract_ar_row","get_block_mean","get_noise_var","linsolve","multiply_mat","normalized_cross_correlation","swap_unchecked"]};

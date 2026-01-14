@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ImageSource","Level","Paint","RenderMode"],"mod":["dispatch","render","util"],"struct":["Glyph","Mask","Pixmap","RenderContext","RenderSettings"],"type":["Image","PaintType"]};

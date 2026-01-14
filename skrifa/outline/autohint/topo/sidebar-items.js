@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAX_INLINE_EDGES","MAX_INLINE_SEGMENTS"],"mod":["edges","segments"],"struct":["Axis","Edge","Segment"],"type":["Dimension"]};

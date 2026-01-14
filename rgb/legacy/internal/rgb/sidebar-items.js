@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["impl_rgb","impl_rgb_to_alpha"]};

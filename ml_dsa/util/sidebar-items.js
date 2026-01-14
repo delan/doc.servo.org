@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["B32","B64"]};

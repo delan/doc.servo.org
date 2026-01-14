@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["TableOpt","TablePartition"],"struct":["TableCreateStatement"]};

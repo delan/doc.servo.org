@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AllowOr","BoolValue","MozPrefFeatureValue","Operator","QueryCondition"],"fn":["consume_any_value"],"struct":["MozPrefFeature","StyleFeature"],"type":["ComputedMozPrefFeatureValue","SpecifiedMozPrefFeatureValue"]};

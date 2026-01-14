@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["_IMPL_DOMOBJECT_FOR_IntersectionObserver"],"fn":["compute_the_intersection","parse_a_margin"],"struct":["IntersectionObservationOutput","IntersectionObserver","IntersectionObserverRegistration"],"type":["IntersectionRoot"]};

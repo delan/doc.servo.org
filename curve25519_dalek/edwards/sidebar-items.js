@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["impl_basepoint_table","impl_basepoint_table_conversions"],"mod":["decompress"],"struct":["CompressedEdwardsY","EdwardsBasepointTable","EdwardsBasepointTableRadix128","EdwardsBasepointTableRadix256","EdwardsBasepointTableRadix32","EdwardsBasepointTableRadix64","EdwardsPoint","VartimeEdwardsPrecomputation"],"type":["EdwardsBasepointTableRadix16"]};

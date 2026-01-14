@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AnimationComposition","AnimationDirection","AnimationFillMode","AnimationIterationCount","AnimationPlayState","ScrollAxis","Scroller","TransitionBehavior","TransitionProperty","ViewTransitionName"],"struct":["AnimationName","ScrollFunction","TimelineName","ViewTransitionClass"],"type":["AnimationDuration","AnimationTimeline","ViewTimelineInset"]};

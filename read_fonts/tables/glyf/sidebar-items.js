@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Anchor","Glyph"],"fn":["midpoint_i32","resolve_coords_len"],"mod":["bytecode"],"struct":["Component","ComponentGlyphIdFlagsIter","ComponentIter","CompositeGlyphFlags","CurvePoint","FieldLengths","PointFlags","PointIter","PointMarker","SimpleGlyphFlags","Transform"],"trait":["PointCoord"],"type":["CompositeGlyph","Glyf","SimpleGlyph"]};

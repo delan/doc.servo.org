@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["FRAME_MARGIN","LUMA_PADDING"],"enum":["FrameTypeOverride"],"mod":["plane"],"struct":["Frame","FrameParameters"],"trait":["AsTile","FrameAlloc","FramePad"]};

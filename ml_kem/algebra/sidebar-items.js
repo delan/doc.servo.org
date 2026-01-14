@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["GAMMA","ZETA_POW_BITREV"],"struct":["FieldElement","FieldElementReader","NttMatrix","NttPolynomial","NttVector","Polynomial","PolynomialVector"],"type":["Integer"]};

@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["derive_more_impl",[["impl&lt;'ast&gt; <a class=\"trait\" href=\"https://docs.rs/syn/2.0.114/syn/gen/visit/trait.Visit.html\" title=\"trait syn::gen::visit::Visit\">Visit</a>&lt;'ast&gt; for <a class=\"struct\" href=\"derive_more_impl/utils/generics_search/struct.Visitor.html\" title=\"struct derive_more_impl::utils::generics_search::Visitor\">Visitor</a>&lt;'_&gt;"]]],["yoke_derive",[["impl&lt;'ast&gt; <a class=\"trait\" href=\"https://docs.rs/syn/2.0.114/syn/gen/visit/trait.Visit.html\" title=\"trait syn::gen::visit::Visit\">Visit</a>&lt;'ast&gt; for <a class=\"struct\" href=\"yoke_derive/visitor/struct.TypeVisitor.html\" title=\"struct yoke_derive::visitor::TypeVisitor\">TypeVisitor</a>&lt;'_&gt;"]]],["zerofrom_derive",[["impl&lt;'ast&gt; <a class=\"trait\" href=\"https://docs.rs/syn/2.0.114/syn/gen/visit/trait.Visit.html\" title=\"trait syn::gen::visit::Visit\">Visit</a>&lt;'ast&gt; for <a class=\"struct\" href=\"zerofrom_derive/visitor/struct.TypeVisitor.html\" title=\"struct zerofrom_derive::visitor::TypeVisitor\">TypeVisitor</a>&lt;'_&gt;"]]],["zeroize_derive",[["impl&lt;'ast&gt; <a class=\"trait\" href=\"https://docs.rs/syn/2.0.114/syn/gen/visit/trait.Visit.html\" title=\"trait syn::gen::visit::Visit\">Visit</a>&lt;'ast&gt; for <a class=\"struct\" href=\"zeroize_derive/struct.BoundAccumulator.html\" title=\"struct zeroize_derive::BoundAccumulator\">BoundAccumulator</a>&lt;'ast&gt;"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[372,341,353,350]}

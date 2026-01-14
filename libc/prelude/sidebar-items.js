@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"attr":["derive"],"derive":["Clone","Copy","Debug","Default"],"enum":["Option","c_void"],"fn":["align_of","align_of_val","size_of","size_of_val"],"macro":["cfg"],"mod":["fmt","hash","iter","mem","ptr"],"trait":["Clone","Copy","Debug","Default","Send","Sync"]};

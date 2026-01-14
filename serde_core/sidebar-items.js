@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["forward_to_deserialize_any","tri"],"mod":["crate_root","de","format","lib","macros","ser"],"trait":["Deserialize","Deserializer","Serialize","Serializer"]};

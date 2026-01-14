@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["composite","define_ranged","uncomposite"],"struct":["Composite","RangedDebug","ri128","ri16","ri32","ri64","ri8"],"trait":["RFrom","RInto","TryRFrom","TryRInto"]};

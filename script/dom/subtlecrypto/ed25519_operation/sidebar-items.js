@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["ED25519_SEED_LENGTH"],"fn":["export_key","generate_key","import_key","sign","verify"]};

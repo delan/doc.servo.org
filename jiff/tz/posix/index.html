@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Provides a parser for POSIX’s `TZ` environment variable."><title>jiff::tz::posix - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-6b053e98.ttf.woff2,FiraSans-Italic-81dc35de.woff2,FiraSans-Regular-0fe48ade.woff2,FiraSans-MediumItalic-ccf7e434.woff2,FiraSans-Medium-e1aa3f0a.woff2,SourceCodePro-Regular-8badfe75.ttf.woff2,SourceCodePro-Semibold-aa29a496.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2"href="../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../static.files/normalize-9960930a.css"><link rel="stylesheet" href="../../../static.files/rustdoc-e56847b5.css"><meta name="rustdoc-vars" data-root-path="../../../" data-static-root-path="../../../static.files/" data-current-crate="jiff" data-themes="" data-resource-suffix="" data-rustdoc-version="1.91.0 (f8297e351 2025-10-28)" data-channel="1.91.0" data-search-js="search-e256b49e.js" data-stringdex-js="stringdex-c3e638e9.js" data-settings-js="settings-c38705f0.js" ><script src="../../../static.files/storage-e2aeef58.js"></script><script defer src="../sidebar-items.js"></script><script defer src="../../../static.files/main-6dc2a7f3.js"></script><noscript><link rel="stylesheet" href="../../../static.files/noscript-263c88ec.css"></noscript><link rel="alternate icon" type="image/png" href="../../../static.files/favicon-32x32-eab170b8.png"><link rel="icon" type="image/svg+xml" href="../../../static.files/favicon-044be391.svg"></head><body class="rustdoc mod"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><rustdoc-topbar><h2><a href="#">Module posix</a></h2></rustdoc-topbar><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../jiff/index.html">jiff</a><span class="version">0.2.18</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">Module posix</a></h2><h3><a href="#">Sections</a></h3><ul class="block top-toc"><li><a href="#iana-v3-support" title="IANA v3+ Support">IANA v3+ Support</a></li><li><a href="#no-std-and-no-alloc-support" title="`no-std` and `no-alloc` support"><code>no-std</code> and <code>no-alloc</code> support</a></li></ul><h3><a href="#types">Module Items</a></h3><ul class="block"><li><a href="#types" title="Type Aliases">Type Aliases</a></li></ul></section><div id="rustdoc-modnav"><h2><a href="../index.html">In jiff::<wbr>tz</a></h2></div></div></nav><div class="sidebar-resizer" title="Drag to resize sidebar"></div><main><div class="width-limiter"><section id="main-content" class="content"><div class="main-heading"><div class="rustdoc-breadcrumbs"><a href="../../index.html">jiff</a>::<wbr><a href="../index.html">tz</a></div><h1>Module <span>posix</span>&nbsp;<button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"><a class="src" href="../../../src/jiff/tz/posix.rs.html#1-359">Source</a> </span></div><details class="toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><p>Provides a parser for <a href="https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap08.html#tag_08_03">POSIX’s <code>TZ</code> environment variable</a>.</p>
+<p>NOTE: Sadly, at time of writing, the actual parser is in <code>src/shared/posix.rs</code>.
+This is so it can be shared (via simple code copying) with proc macros like
+the one found in <code>jiff-tzdb-static</code>. The parser populates a “lowest common
+denominator” data type. In normal use in Jiff, this type is converted into
+the types defined below. This module still does provide the various time zone
+operations. Only the parsing is written elsewhere.</p>
+<p>The <code>TZ</code> environment variable is most commonly used to set a time zone. For
+example, <code>TZ=America/New_York</code>. But it can also be used to tersely define DST
+transitions. Moreover, the format is not just used as an environment variable,
+but is also included at the end of TZif files (version 2 or greater). The IANA
+Time Zone Database project also <a href="https://data.iana.org/time-zones/tzdb-2024a/theory.html#functions">documents the <code>TZ</code> variable</a> with
+a little more commentary.</p>
+<p>Note that we (along with pretty much everyone else) don’t strictly follow
+POSIX here. Namely, <code>TZ=America/New_York</code> isn’t a POSIX compatible usage,
+and I believe it technically should be <code>TZ=:America/New_York</code>. Nevertheless,
+apparently some group of people (IANA folks?) decided <code>TZ=America/New_York</code>
+should be fine. From the <a href="https://data.iana.org/time-zones/tzdb-2024a/theory.html#functions">IANA <code>theory.html</code> documentation</a>:</p>
+<blockquote>
+<p>It was recognized that allowing the TZ environment variable to take on values
+such as ‘America/New_York’ might cause “old” programs (that expect TZ to have
+a certain form) to operate incorrectly; consideration was given to using
+some other environment variable (for example, TIMEZONE) to hold the string
+used to generate the TZif file’s name. In the end, however, it was decided
+to continue using TZ: it is widely used for time zone purposes; separately
+maintaining both TZ and TIMEZONE seemed a nuisance; and systems where “new”
+forms of TZ might cause problems can simply use legacy TZ values such as
+“EST5EDT” which can be used by “new” programs as well as by “old” programs
+that assume pre-POSIX TZ values.</p>
+</blockquote>
+<p>Indeed, even <a href="https://wiki.musl-libc.org/environment-variables">musl subscribes to this behavior</a>. So that’s what we do
+here too.</p>
+<p>Note that a POSIX time zone like <code>EST5</code> corresponds to the UTC offset <code>-05:00</code>,
+and <code>GMT-4</code> corresponds to the UTC offset <code>+04:00</code>. Yes, it’s backwards. How
+fun.</p>
+<h2 id="iana-v3-support"><a class="doc-anchor" href="#iana-v3-support">§</a>IANA v3+ Support</h2>
+<p>While this module and many of its types are directly associated with POSIX,
+this module also plays a supporting role for <code>TZ</code> strings in the IANA TZif
+binary format for versions 2 and greater. Specifically, for versions 3 and
+greater, some minor extensions are supported here via <code>IanaTz::parse</code>. But
+using <code>PosixTz::parse</code> is limited to parsing what is specified by POSIX.
+Nevertheless, we generally use <code>IanaTz::parse</code> everywhere, even when parsing
+the <code>TZ</code> environment variable. The reason for this is that it seems to be what
+other programs do in practice (for example, GNU date).</p>
+<h2 id="no-std-and-no-alloc-support"><a class="doc-anchor" href="#no-std-and-no-alloc-support">§</a><code>no-std</code> and <code>no-alloc</code> support</h2>
+<p>A big part of this module works fine in core-only environments. But because
+core-only environments provide means of indirection, and embedding a
+<code>PosixTimeZone</code> into a <code>TimeZone</code> without indirection would use up a lot of
+space (and thereby make <code>Zoned</code> quite chunky), we provide core-only support
+principally through a proc macro. Namely, a <code>PosixTimeZone</code> can be parsed by
+the proc macro and then turned into static data.</p>
+<p>POSIX time zone support isn’t explicitly provided directly as a public API
+for core-only environments, but is implicitly supported via TZif. (Since TZif
+data contains POSIX time zone strings.)</p>
+</div></details><h2 id="types" class="section-header">Type Aliases<a href="#types" class="anchor">§</a></h2><dl class="item-table"><dt><a class="type" href="type.PosixTimeZoneOwned.html" title="type jiff::tz::posix::PosixTimeZoneOwned">Posix<wbr>Time<wbr>Zone<wbr>Owned</a><span title="Restricted Visibility">&nbsp;🔒</span> </dt><dd>An owned POSIX time zone.</dd><dt><a class="type" href="type.PosixTimeZoneStatic.html" title="type jiff::tz::posix::PosixTimeZoneStatic">Posix<wbr>Time<wbr>Zone<wbr>Static</a><span title="Restricted Visibility">&nbsp;🔒</span> </dt><dd>An owned POSIX time zone whose abbreviations are <code>&amp;'static str</code>.</dd></dl></section></div></main></body></html>

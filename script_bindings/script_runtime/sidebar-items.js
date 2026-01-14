@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["THREAD_ACTIVE"],"fn":["mark_runtime_dead","runtime_is_alive","temp_cx"],"struct":["CanGc","JSContext"]};

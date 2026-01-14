@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["dict_name_for_field","expand_deserialize_derive","expand_serialize_derive"]};

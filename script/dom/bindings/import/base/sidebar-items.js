@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["ptr"],"struct":["CanGc","CurrentRealm","JSContext","SafeJSContext"],"type":["HandleObject","MutableHandleObject"]};

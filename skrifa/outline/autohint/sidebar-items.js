@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["derived_constant"],"mod":["hint","instance","metrics","outline","shape","style","topo"]};

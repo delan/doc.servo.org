@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["message_representative"],"macro":["define_field"],"mod":["algebra","crypto","encode","hint","module_lattice","ntt","param","sampling","util"],"struct":["Error","KeyPair","MlDsa44","MlDsa65","MlDsa87","Signature","SigningKey","VerifyingKey"],"trait":["KeyGen","MlDsaParams"],"type":["B32","EncodedSignature","EncodedSigningKey","EncodedVerifyingKey"]};

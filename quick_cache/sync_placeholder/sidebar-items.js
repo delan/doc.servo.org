@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["GuardResult","JoinFutureState","LoadingState","Waiter"],"struct":["JoinFuture","Placeholder","PlaceholderGuard","State"],"type":["SharedPlaceholder"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["impl_scalar","impl_struct_checked","impl_struct_ops_alpha","impl_struct_ops_opaque"]};

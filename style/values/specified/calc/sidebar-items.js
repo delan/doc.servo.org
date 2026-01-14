@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AllowAnchorPositioningFunctions","Leaf","MathFunction"],"struct":["AdditionalFunctions","AllowParse","CalcLengthPercentage"],"type":["CalcAnchorFunction","CalcAnchorSizeFunction","CalcNode"]};

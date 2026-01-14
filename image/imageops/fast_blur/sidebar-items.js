@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["boxes_for_gauss","channel_idx","extended_f","fast_blur","horizontal_fast_blur_half"]};

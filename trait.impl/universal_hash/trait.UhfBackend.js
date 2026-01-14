@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["ghash",[["impl&lt;'b, B: <a class=\"trait\" href=\"universal_hash/trait.UhfBackend.html\" title=\"trait universal_hash::UhfBackend\">UhfBackend</a>&gt; <a class=\"trait\" href=\"universal_hash/trait.UhfBackend.html\" title=\"trait universal_hash::UhfBackend\">UhfBackend</a> for <a class=\"struct\" href=\"ghash/struct.GHashBackend.html\" title=\"struct ghash::GHashBackend\">GHashBackend</a>&lt;'b, B&gt;"]]],["poly1305",[["impl <a class=\"trait\" href=\"universal_hash/trait.UhfBackend.html\" title=\"trait universal_hash::UhfBackend\">UhfBackend</a> for <a class=\"struct\" href=\"poly1305/backend/avx2/struct.State.html\" title=\"struct poly1305::backend::avx2::State\">State</a>"],["impl <a class=\"trait\" href=\"universal_hash/trait.UhfBackend.html\" title=\"trait universal_hash::UhfBackend\">UhfBackend</a> for <a class=\"struct\" href=\"poly1305/backend/soft/struct.State.html\" title=\"struct poly1305::backend::soft::State\">State</a>"]]],["polyval",[["impl <a class=\"trait\" href=\"universal_hash/trait.UhfBackend.html\" title=\"trait universal_hash::UhfBackend\">UhfBackend</a> for <a class=\"struct\" href=\"polyval/backend/clmul/struct.Polyval.html\" title=\"struct polyval::backend::clmul::Polyval\">Polyval</a>"],["impl <a class=\"trait\" href=\"universal_hash/trait.UhfBackend.html\" title=\"trait universal_hash::UhfBackend\">UhfBackend</a> for <a class=\"struct\" href=\"polyval/backend/soft/struct.Polyval.html\" title=\"struct polyval::backend::soft::Polyval\">Polyval</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[411,541,550]}

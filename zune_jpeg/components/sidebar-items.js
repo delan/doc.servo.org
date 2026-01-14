@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ComponentID","SampleRatios"],"struct":["Components"],"type":["UpSampler"]};

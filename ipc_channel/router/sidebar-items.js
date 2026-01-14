@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["RouterMsg"],"static":["ROUTER"],"struct":["Router","RouterProxy","RouterProxyComm"],"type":["RouterHandler","TypedRouterHandler"]};

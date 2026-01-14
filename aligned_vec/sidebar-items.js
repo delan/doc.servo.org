@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["CACHELINE_ALIGN"],"enum":["TryReserveError"],"fn":["fix_alignment"],"macro":["avec","avec_rt"],"mod":["private","raw"],"struct":["ABox","AVec","AllocDrop","ConstAlign","RuntimeAlign"],"trait":["Alignment"]};

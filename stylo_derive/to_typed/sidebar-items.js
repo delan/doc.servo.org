@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["derive","derive_variant_arm","derive_variant_fields_expr"],"struct":["TypedValueInputAttrs","TypedValueVariantAttrs"]};

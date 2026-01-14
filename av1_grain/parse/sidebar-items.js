@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["c_cb_params","c_cr_params","c_y_params","e_params","grain_table_header","grain_table_segment","integer","line","p_params","parse_grain_table","s_cb_params","s_cr_params","s_y_params"],"struct":["EParams","PParams"]};

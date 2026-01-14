@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["is_long_year"],"struct":["ISOWeekDate"]};

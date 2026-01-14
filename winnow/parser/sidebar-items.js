@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":["impl_parser_for_tuple","impl_parser_for_tuples"],"trait":["ModalParser","Parser"]};

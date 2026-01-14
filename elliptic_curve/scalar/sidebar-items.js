@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["blinded","nonzero","primitive"],"struct":["BlindedScalar","NonZeroScalar","ScalarPrimitive"],"trait":["FromUintUnchecked","IsHigh"],"type":["Scalar"]};

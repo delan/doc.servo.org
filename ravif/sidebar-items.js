@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AlphaColorMode","BitDepth","ColorModel","Error","MatrixCoefficients"],"mod":["av1encoder","dirtyalpha","error"],"struct":["EncodedImage","Encoder"]};

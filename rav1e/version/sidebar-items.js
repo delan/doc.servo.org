@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["full","git_hash","git_version","hash","long","major","minor","patch","short"]};

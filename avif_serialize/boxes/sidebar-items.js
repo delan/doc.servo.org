@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["BASIC_BOX_SIZE","FULL_BOX_SIZE"],"enum":["IpcoProp"],"struct":["AuxCBox","AuxlBox","Av1CBox","AvifFile","ColrBox","FourCC","FtypBox","HdlrBox","IinfBox","IlocBox","IlocExtent","IlocItem","InfeBox","IpcoBox","IpmaBox","IpmaEntry","IprpBox","IrefBox","IrefEntryBox","IspeBox","MdatBox","MetaBox","PitmBox","PixiBox"],"trait":["MpegBox"]};

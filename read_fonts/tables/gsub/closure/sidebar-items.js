@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["CLOSURE_MAX_STAGES"],"mod":["ctx"],"trait":["GlyphClosure"]};

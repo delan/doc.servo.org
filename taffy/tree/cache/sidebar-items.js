@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["CACHE_SIZE"],"enum":["ClearState"],"struct":["Cache","CacheEntry"]};

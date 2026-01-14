@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["sub_image"],"mod":["iter","ops","traits"],"struct":["Img","PixelsIter","PixelsIterMut","PixelsRefIter","RowsIter","RowsIterMut"],"trait":["ImgExt","ImgExtMut"],"type":["ImgRef","ImgRefMut","ImgVec"]};

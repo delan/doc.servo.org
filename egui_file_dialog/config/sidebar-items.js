@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["OpeningMode"],"mod":["keybindings","labels"],"struct":["FileDialogConfig","FileFilter","IconFilter","PinnedFolder","QuickAccess","QuickAccessPath","SaveExtension"],"type":["Filter"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["spawn","spawn_local","spawn_unchecked"],"macro":["leap","leap_unwrap"],"mod":["header","raw","runnable","state","task","utils"],"struct":["Builder","FallibleTask","Runnable","ScheduleInfo","Task","WithInfo"],"trait":["Schedule"]};

@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["bincode",[["impl <a class=\"trait\" href=\"serde_core/ser/trait.Error.html\" title=\"trait serde_core::ser::Error\">Error</a> for <a class=\"type\" href=\"bincode/type.Error.html\" title=\"type bincode::Error\">Error</a>"]]],["quick_xml",[["impl <a class=\"trait\" href=\"serde_core/ser/trait.Error.html\" title=\"trait serde_core::ser::Error\">Error</a> for <a class=\"enum\" href=\"quick_xml/errors/serialize/enum.SeError.html\" title=\"enum quick_xml::errors::serialize::SeError\">SeError</a>"]]],["ron",[["impl <a class=\"trait\" href=\"serde_core/ser/trait.Error.html\" title=\"trait serde_core::ser::Error\">Error</a> for <a class=\"enum\" href=\"ron/error/enum.Error.html\" title=\"enum ron::error::Error\">Error</a>"]]],["serde",[]],["serde_core",[]],["serde_json",[["impl <a class=\"trait\" href=\"serde_core/ser/trait.Error.html\" title=\"trait serde_core::ser::Error\">Error</a> for <a class=\"struct\" href=\"serde_json/struct.Error.html\" title=\"struct serde_json::Error\">Error</a>"]]],["serde_urlencoded",[["impl <a class=\"trait\" href=\"serde_core/ser/trait.Error.html\" title=\"trait serde_core::ser::Error\">Error</a> for <a class=\"enum\" href=\"serde_urlencoded/ser/enum.Error.html\" title=\"enum serde_urlencoded::ser::Error\">Error</a>"]]],["zvariant",[["impl <a class=\"trait\" href=\"serde_core/ser/trait.Error.html\" title=\"trait serde_core::ser::Error\">Error</a> for <a class=\"enum\" href=\"zvariant/enum.Error.html\" title=\"enum zvariant::Error\">Error</a>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[226,275,228,13,18,242,263,230]}

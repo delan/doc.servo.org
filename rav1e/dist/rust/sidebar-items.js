@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["AREA_DIVISORS","AREA_DIVISOR_BITS","GET_WEIGHTED_SSE_SHIFT"],"fn":["butterfly","cdef_dist_kernel","get_sad","get_satd","get_weighted_sse","hadamard2d","hadamard4_1d","hadamard4x4","hadamard8_1d","hadamard8x8"]};

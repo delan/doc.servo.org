@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AdaptiveFilterType","FilterType"],"fn":["filter","filter_internal","filter_paeth","filter_paeth_fpnge","filter_paeth_stbi","sum_buffer","unfilter"]};

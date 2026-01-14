@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["compute_damage_and_repair_style","compute_damage_and_repair_style_inner"],"struct":["RecalcStyle"]};

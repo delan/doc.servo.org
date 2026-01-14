@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["script",[["impl <a class=\"trait\" href=\"selectors/tree/trait.Element.html\" title=\"trait selectors::tree::Element\">Element</a> for <a class=\"enum\" href=\"script/dom/element/enum.SelectorWrapper.html\" title=\"enum script::dom::element::SelectorWrapper\">SelectorWrapper</a>&lt;'_&gt;"],["impl <a class=\"trait\" href=\"selectors/tree/trait.Element.html\" title=\"trait selectors::tree::Element\">Element</a> for <a class=\"struct\" href=\"script/layout_dom/struct.ServoThreadSafeLayoutElement.html\" title=\"struct script::layout_dom::ServoThreadSafeLayoutElement\">ServoThreadSafeLayoutElement</a>&lt;'_&gt;"],["impl&lt;'dom&gt; <a class=\"trait\" href=\"selectors/tree/trait.Element.html\" title=\"trait selectors::tree::Element\">Element</a> for <a class=\"struct\" href=\"script/layout_dom/struct.ServoLayoutElement.html\" title=\"struct script::layout_dom::ServoLayoutElement\">ServoLayoutElement</a>&lt;'dom&gt;"]]],["style",[["impl&lt;'a, E&gt; <a class=\"trait\" href=\"selectors/tree/trait.Element.html\" title=\"trait selectors::tree::Element\">Element</a> for <a class=\"struct\" href=\"style/invalidation/element/element_wrapper/struct.ElementWrapper.html\" title=\"struct style::invalidation::element::element_wrapper::ElementWrapper\">ElementWrapper</a>&lt;'a, E&gt;<div class=\"where\">where\n    E: <a class=\"trait\" href=\"style/dom/trait.TElement.html\" title=\"trait style::dom::TElement\">TElement</a>,</div>"]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[929,512]}
